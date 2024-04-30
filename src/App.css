@@ -1,38 +1,213 @@
-.App {
-  text-align: center;
+body {
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-color: black;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main3{
+  margin-top: 80px;
+}
+.sign{
   display: flex;
   flex-direction: column;
+  margin-top: 40px;
+  font-size: 40px;
+  font-weight: 700;
+}
+.form1{
+  width: 350px;
+  
+  padding: 15px;
+}
+
+.sidebar{
+  
+  margin-left: 12px;
+  margin-top: 12px;
+  border-radius: 8px;
+  background-color:#121212;
+  opacity: 1;
+  
+}
+.image{
+  width: 150px;
+  color: white;
+}
+.sidebar1{
+  height: 25%;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+.home-icon{
+  display: flex;
+  padding-top: 10px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  
+}
+.home-icon icon{
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.icon{
+  height: 65px;
+  width: 60px;
+  padding-right: 7px;
+  color: white;
+  cursor: pointer;
+}
+.text1{
+  font-size: 25px;
+  color:white;
+  font-weight: 500;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+.gap{
+  margin-top: 20px; 
+}
+
+.sidebar2{
+  height: 75%;
+  margin-top: 12px;
+  background-color: #121212;
+  opacity: 1;
+  margin-left: 12px;
+  border-radius: 8px;
+  overflow-y: hidden;
+}
+.side{
+  height: 100vh;
+  width: 400px;
+  
+}
+.sidebar3{
+  margin-left: 35px;
+}
+.create{
+  border-radius: 10px;
+  border-color:black;
+  
+  
+  
+}
+.btn3:hover{
+  color:white;
+  cursor: pointer;
+}
+.hover:hover{
+  color:cadetblue;
+  cursor: pointer;
+  
+}
+.btn{
+  padding: 20px;
+  width: 90%;
+  opacity: 1;
+  border-radius: 8px;
+  border:2px solid transparent;
+  color:black;
+  font-weight: 700;
+  font-size: large;
+  opacity: 0.4;
+}
+.safety{
+  margin-top: 20px;
+  color:white;
+  
+}
+.safety span{
+  margin-right: 20px;
+}
+.cookies{
+  color: white;
+}
+.main5{
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+.main6{
+  width: 90%;
+  margin-right: 12px;
+  margin-top: 12px;
+  margin-left: 12px;
+  border-radius: 8px;
+}
+.auth{
+  height: 100px;
+  background-color:black;
+  display: flex;
+  justify-content: flex-end;
+}
+.playlist{
+  
+  background-color:#121212;
+  height: 100vh;
+  border-radius: 10px;
+  padding-top: 15px;
+  padding-left: 15px;
+
+}
+.btn2{
+  padding: 10px;
+  border-radius: 50px;
+  margin-right: 80px;
+  height: 70px;
+  width: 170px;
+  color: black;
+  font-weight: 700;
+  font-size: 20px;
+
+}
+.btn3{
+  padding: 10px;
+  border-radius: 50px;
+  margin-right: 80px;
+  height: 70px;
+  width: 170px;
+  color:darkgray;
+  background-color: black;
+  font-weight: 700;
+  font-size: 20px;
+  border:0px solid transparent
+
+}
+.popular{
+  color: white;
+  padding-top: 15px;
+  padding-left: 15px;
+  font-size: 20px;
+  font-weight: 500;
+  
+}
+.image1{
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+}
+.all{
+  display: flex;
+  justify-content: space-between;
+  gap:35px;
+  padding-right: 15px;
+}
+h3{
+  font-size: 50px;
+  color: white;
+}
+.mode{
+  padding-top: 10px;
+  padding-left: px;
+}
+.text{
+  color: white;
 }
